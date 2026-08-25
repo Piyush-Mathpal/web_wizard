@@ -11,7 +11,7 @@ export const GallerySection = () => {
       id: 1,
       title: "Graph-E-Thon National Hackathon Arena",
       category: "Hackathons",
-      image: "/gallery/hackathon.jpg",
+      image: `${import.meta.env.BASE_URL}gallery/hackathon.jpg`,
       caption: "Over 80+ teams coding through the night in the Graph-E-Thon innovation challenge at GEHU Campus.",
       tag: "Hackathon 2026"
     },
@@ -19,7 +19,7 @@ export const GallerySection = () => {
       id: 2,
       title: "Web-A-Thon UI/UX Design Battle",
       category: "Web-A-Thon",
-      image: "/gallery/webathon.jpg",
+      image: `${import.meta.env.BASE_URL}gallery/hackathon.jpg`,
       caption: "Frontend developers and visual designers building futuristic responsive web applications.",
       tag: "Web Design"
     },
@@ -27,7 +27,7 @@ export const GallerySection = () => {
       id: 3,
       title: "Capture The Flag Cybersecurity Proving Grounds",
       category: "CTF & Cyber",
-      image: "/gallery/ctf.jpg",
+      image: `${import.meta.env.BASE_URL}gallery/hackathon.jpg`,
       caption: "Ethical hackers and security researchers analyzing binary matrix challenges in the Jeopardy CTF arena.",
       tag: "Jeopardy CTF"
     },
@@ -35,7 +35,7 @@ export const GallerySection = () => {
       id: 4,
       title: "NIRVAN Esports Arena Championship Stage",
       category: "E-Sports",
-      image: "/gallery/esports.jpg",
+      image: `${import.meta.env.BASE_URL}gallery/hackathon.jpg`,
       caption: "Collegiate esports teams competing in high-stakes tactical battles live on spectator LED screens.",
       tag: "Valorant & BGMI"
     },
@@ -43,7 +43,7 @@ export const GallerySection = () => {
       id: 5,
       title: "AI & Masterclasses Workshop Hall",
       category: "Workshops",
-      image: "/gallery/webathon.jpg",
+      image: `${import.meta.env.BASE_URL}gallery/hackathon.jpg`,
       caption: "Students participating in hands-on AI agent workflows and modern system architecture workshops.",
       tag: "AI Workshop"
     },
@@ -51,7 +51,7 @@ export const GallerySection = () => {
       id: 6,
       title: "Grand Prize Ceremony & Light Showcase",
       category: "Ceremonies",
-      image: "/gallery/hackathon.jpg",
+      image: `${import.meta.env.BASE_URL}gallery/hackathon.jpg`,
       caption: "Trophy presentation and celebratory confetti burst during the NIRVAN festival finale.",
       tag: "Prize Ceremony"
     }
