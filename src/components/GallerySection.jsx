@@ -19,7 +19,7 @@ export const GallerySection = () => {
       id: 2,
       title: "Web-A-Thon UI/UX Design Battle",
       category: "Web-A-Thon",
-      image: `${import.meta.env.BASE_URL}gallery/hackathon.jpg`,
+      image: `${import.meta.env.BASE_URL}gallery/webathon.jpg`,
       caption: "Frontend developers and visual designers building futuristic responsive web applications.",
       tag: "Web Design"
     },
@@ -27,7 +27,7 @@ export const GallerySection = () => {
       id: 3,
       title: "Capture The Flag Cybersecurity Proving Grounds",
       category: "CTF & Cyber",
-      image: `${import.meta.env.BASE_URL}gallery/hackathon.jpg`,
+      image: `${import.meta.env.BASE_URL}gallery/ctf.jpg`,
       caption: "Ethical hackers and security researchers analyzing binary matrix challenges in the Jeopardy CTF arena.",
       tag: "Jeopardy CTF"
     },
@@ -35,7 +35,7 @@ export const GallerySection = () => {
       id: 4,
       title: "NIRVAN Esports Arena Championship Stage",
       category: "E-Sports",
-      image: `${import.meta.env.BASE_URL}gallery/hackathon.jpg`,
+      image: `${import.meta.env.BASE_URL}gallery/esports.jpg`,
       caption: "Collegiate esports teams competing in high-stakes tactical battles live on spectator LED screens.",
       tag: "Valorant & BGMI"
     },
